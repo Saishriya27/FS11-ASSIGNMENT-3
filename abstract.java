@@ -1,4 +1,8 @@
-public abstract class AbstractClass { 
+Abstraction in Java is a fundamental concept of object-oriented programming that allows us to hide the complex implementation details and only show the necessary features.
+There are two main ways to achieve abstraction in Java: 
+             1. Abstract Classes
+             2. Interfaces
+    public abstract class AbstractClass { 
     int a; 
     final int b = 20; 
     static int c = 30; 
