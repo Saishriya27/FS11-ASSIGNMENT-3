@@ -1,3 +1,9 @@
+To implement serialization in Java for a given object, such as the 'Customer' class in your example, 
+Steps:
+1.Ensure that the class you want to serialize implements the Serializable interface.
+2.Create an instance of the ObjectOutputStream class to write objects to an output stream.
+3.Use the writeObject() method of ObjectOutputStream to serialize the object and write it to a file.
+4.Close the output stream to release resources.
 //Serialization
 import java.io.FileOutputStream;
 import java.io.IOException;
